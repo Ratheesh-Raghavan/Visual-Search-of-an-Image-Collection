@@ -1,20 +1,8 @@
-%% EEE3032 - Computer Vision and Pattern Recognition (ee3.cvpr)
-%%
 %% cvpr_visualsearch_loop.m
 %%
 %% This module is a modified version of cvpr_visualsearch module, tailored to 
 %% search in loop, to serve for extracting the Precision-Recall statistics for all the
 %% classes of images in the dataset.
-%%
-%%
-%% Originally coded by:
-%% John Collomosse 2010  (J.Collomosse@surrey.ac.uk)
-%% Centre for Vision Speech and Signal Processing (CVSSP)
-%% University of Surrey, United Kingdom
-%%
-%% Modified by: 
-%% Ratheesh Raghavan
-%% MSc Computer Vision, Robotics and Machine Learning
 
 close all;
 clear all;
