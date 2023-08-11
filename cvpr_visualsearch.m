@@ -1,25 +1,13 @@
-%% EEE3032 - Computer Vision and Pattern Recognition (ee3.cvpr)
-%%
 %% cvpr_visualsearch.m
 %%
-%% %% This code module was originally developed as a skeleton code,
-%% provided as part of the coursework assessment. This code will load in all
-%% descriptors pre-computed (by the function cvpr_computedescriptors) from
-%% the images in the MSRCv2 dataset.It will pick a descriptor at random and
-%% compare all other descriptors to it - by calling one of the below listed 
+%% This code will load in all descriptors pre-computed (by the function cvpr_computedescriptors) from
+%% the images in the MSRCv2 dataset.It will pick a descriptor at random and compare all other descriptors 
+%% to it - by calling one of the below listed 
 %% functions, depending on the method used to calculate the distance (similarity).
 %% 1) cvpr_euclideanCompare
 %% 2) ...
 %% In doing so it will rank the images by similarity to the randomly picked descriptor.
 %%
-%% Originally coded by:
-%% John Collomosse 2010  (J.Collomosse@surrey.ac.uk)
-%% Centre for Vision Speech and Signal Processing (CVSSP)
-%% University of Surrey, United Kingdom
-%%
-%% Modified by: 
-%% Ratheesh Raghavan
-%% MSc Computer Vision, Robotics and Machine Learning
 
 close all;
 clear all;
