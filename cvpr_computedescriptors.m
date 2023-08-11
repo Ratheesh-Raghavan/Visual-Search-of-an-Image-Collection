@@ -1,23 +1,12 @@
-%% EEE3032 - Computer Vision and Pattern Recognition (ee3.cvpr)
-%%
 %% cvpr_computedescriptors.m
 %%
-%% This code module was originally developed as a skeleton code,
-%% provided as part of the coursework assessment. This code will iterate
+%% This code will iterate
 %% through every image in the MSRCv2 dataset and call one of the below listed 
 %% functions, depending on the method used to extract a descriptor from the image.
 %% 1) cvpr_globalRGBhist
 %% 2) cvpr_computeGrids 
-%%    Can be called for RGB histograms as well as for edge oriented histograms
+%% Can be called for RGB histograms as well as for edge oriented histograms
 %% 
-%% Originally coded by:
-%% John Collomosse 2010  (J.Collomosse@surrey.ac.uk)
-%% Centre for Vision Speech and Signal Processing (CVSSP)
-%% University of Surrey, United Kingdom
-%% 
-%% Modified by: 
-%% Ratheesh Raghavan
-%% MSc Computer Vision, Robotics and Machine Learning
 
 close all;
 clear all;
